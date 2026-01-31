@@ -2258,6 +2258,7 @@ body::after {
 }
 
 .footer__logo {
+  pointer-events: none;
   text-align: center;
   margin-top: -9.375rem;
   position: relative;
@@ -4008,7 +4009,7 @@ body::after {
   }
 
   .block-fix {
-    bottom: 3.125rem;
+    bottom: 5rem;
   }
 
   .block-fix__link {
